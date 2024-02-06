@@ -1,0 +1,65 @@
+---
+layout: page
+title: course
+permalink: /courses/
+description: 我学习的课程。
+nav: true
+nav_order: 2
+display_categories: ['2023 Fall', '2024 Spring']
+horizontal: false
+---
+
+<!-- pages/courses.md -->
+<div class="projects">
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized courses -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_courses = site.courses | where: "category", category %}
+  {% assign sorted_courses = categorized_courses | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-2">
+    {% for project in sorted_courses %}
+      {% include courses_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="grid">
+    {% for project in sorted_courses %}
+      {% include courses.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
+
+{% else %}
+
+<!-- Display courses without categories -->
+
+{% assign sorted_courses = site.courses | sort: "importance" %}
+
+  <!-- Generate cards for each project -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="row row-cols-2">
+    {% for project in sorted_courses %}
+      {% include courses_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="grid">
+    {% for project in sorted_courses %}
+      {% include courses.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
