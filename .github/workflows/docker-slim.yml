@@ -8,10 +8,10 @@ name: Docker Slim
 #     types:
 #       - completed
 
-# on:
-#   push:
-#     branches:
-#       - 'master'
+on:
+  push:
+    branches:
+      - 'inexist_branch'
 
 jobs:
   build:
