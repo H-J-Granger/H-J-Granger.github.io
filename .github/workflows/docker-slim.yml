@@ -11,7 +11,7 @@ name: Docker Slim
 on:
   push:
     branches:
-      - 'inexist_branch'
+      - "inexist_branch"
 
 jobs:
   build:
