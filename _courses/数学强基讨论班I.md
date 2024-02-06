@@ -2,9 +2,8 @@
 layout: page
 title: "数学强基讨论班I"
 description: 数学分析和代数学基础中基本概念、习题以及一定的拓展知识。
-category: '2023 Fall'
+category: "2023 Fall"
 importance: 3
-
 ---
 
 ## 成绩
@@ -14,7 +13,7 @@ importance: 3
 ## 参考书
 
 1. B. A. Zorich：《数学分析》，李植译，高等教育出版社，2007 年第 2 版。
-2. M. Artin: *Algebra*, Pearson Education Inc., Second Edition, 2011.
+2. M. Artin: _Algebra_, Pearson Education Inc., Second Edition, 2011.
 
 ## 简介
 

@@ -5,7 +5,7 @@ permalink: /courses/
 description: 我学习的课程。
 nav: true
 nav_order: 2
-display_categories: ['2023 Fall', '2024 Spring']
+display_categories: ["2023 Fall", "2024 Spring"]
 horizontal: false
 ---
 

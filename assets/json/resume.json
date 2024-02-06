@@ -14,13 +14,10 @@
       "countryCode": "CN",
       "region": "安徽"
     },
-    "profiles": [
-    ]
+    "profiles": []
   },
-  "work": [
-  ],
-  "volunteer": [
-  ],
+  "work": [],
+  "volunteer": [],
   "education": [
     {
       "institution": "中国科学技术大学",
@@ -31,10 +28,7 @@
       "startDate": "2023-09-01",
       "endDate": "",
       "score": "10",
-      "courses": [
-        "数学分析(B1)",
-        "代数学基础"
-      ]
+      "courses": ["数学分析(B1)", "代数学基础"]
     }
   ],
   "awards": [
@@ -58,17 +52,11 @@
       "url": "https://www.noi.cn/upload/resources/file/2022/11/17/223713.htm"
     }
   ],
-  "publications": [
-  ],
+  "publications": [],
   "skills": [
     {
       "name": "算法竞赛",
-      "keywords": [
-        "离散数学",
-        "数据结构",
-        "初等数论",
-        "算法设计"
-      ]
+      "keywords": ["离散数学", "数据结构", "初等数论", "算法设计"]
     }
   ],
   "languages": [
@@ -87,14 +75,9 @@
     {
       "name": "数学",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "分析",
-        "代数"
-      ]
+      "keywords": ["分析", "代数"]
     }
   ],
-  "references": [
-  ],
-  "projects": [
-  ]
+  "references": [],
+  "projects": []
 }

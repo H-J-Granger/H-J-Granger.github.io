@@ -2,7 +2,7 @@
 layout: page
 title: "数学强基讨论班II"
 description: 数学分析和代数中基本概念、习题以及一定的拓展知识。
-category: '2024 Spring'
+category: "2024 Spring"
 importance: 3
 ---
 
